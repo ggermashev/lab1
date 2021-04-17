@@ -1,0 +1,15 @@
+body {
+    background: url("images/Desktop.png") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.div1{
+    background-color: yellow;
+    color:red;
+    margin:50% 0 0 0;
+    width:20%;
+    padding:5% 0 5% 0;
+    border: 2px solid black;
+    position:fixed;
+}
