@@ -24,6 +24,14 @@ class accaunt {
     }
 }
 
+class stats {
+    constructor() {
+        this.hp = 100;
+        this.gold = 1000;
+        this.bored = 0;
+    }
+}
+
 let acc = [];
 if (JSON.parse(localStorage.getItem(1))) {
     acc = JSON.parse(localStorage.getItem(1));
@@ -33,12 +41,12 @@ let yours;
 
 if (confirm("Do you have accaunt?")) {
     var log = prompt("input your login");
-    alert(acc.length);
     for (var i = 0; i < acc.length; i++) {
         if (acc[i].login == log) {
             if (prompt('input your password') == acc[i].password ) {
                 yours = acc[i];
                 alert('ura');
+                window.location.href = "MainPage.html";;
             }
         }
     }
@@ -52,6 +60,15 @@ if (confirm("Do you have accaunt?")) {
     acc.push(elem);
     alert(elem.login);
     localStorage.setItem(1, JSON.stringify(acc));
+    alert('registration was successful, input your login')
+    var log = prompt("input your login");
+    for (var i = 0; i < acc.length; i++) {
+        if (acc[i].login == log) {
+            if (prompt('input your password') == acc[i].password) {
+                yours = acc[i];
+                window.location.href = "MainPage.html";
+            }
+        }
+    }
 }
 
-var usless;

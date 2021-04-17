@@ -1,0 +1,16 @@
+#search{
+    position:fixed;
+    top: 370px;
+    left: 700px;
+    width:450px;
+}
+
+.srch {
+    position: fixed;
+    top: 370px;
+    left: 500px;
+}
+
+html {
+    background: url(images/Oleg.png) no-repeat fixed;
+}
