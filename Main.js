@@ -24,6 +24,13 @@ class accaunt {
     }
 }
 
+class stats {
+    constructor() {
+        this.hp = 100;
+        this.gold = 1000;
+        this.bored = 0;
+    }
+}
 
 let acc = [];
 if (JSON.parse(localStorage.getItem(1))) {
@@ -39,7 +46,7 @@ if (confirm("Do you have accaunt?")) {
             if (prompt('input your password') == acc[i].password ) {
                 yours = acc[i];
                 alert('ura');
-                window.open("MainPage.html");
+                window.location.href = "MainPage.html";;
             }
         }
     }
@@ -59,7 +66,7 @@ if (confirm("Do you have accaunt?")) {
         if (acc[i].login == log) {
             if (prompt('input your password') == acc[i].password) {
                 yours = acc[i];
-                window.open("MainPage.html")
+                window.location.href = "MainPage.html";
             }
         }
     }
