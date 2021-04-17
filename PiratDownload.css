@@ -1,0 +1,77 @@
+html {
+    background: url(images/torrent.png) no-repeat fixed;
+    background-size:1400px 800px;
+}
+
+.div1 {
+    position:fixed;
+    left: 200px;
+    top: 50px;
+    padding: 40px 300px 40px 300px;
+    
+}
+
+.div2 {
+    position: fixed;
+    left: 300px;
+    top: 150px;
+    padding: 30px 220px 30px 220px;
+  
+}
+
+.div3 {
+    position: fixed;
+    left: 320px;
+    top: 220px;
+    padding: 20px 150px 30px 160px;
+    
+}
+
+.div4 {
+    position: fixed;
+    left: 80px;
+    top: 540px;
+    padding: 35px 160px 35px 160px;
+    
+}
+
+.div5 {
+    position: fixed;
+    left: 600px;
+    top: 530px;
+    padding: 40px 150px 40px 150px;
+    
+}
+
+.div6 {
+    position: fixed;
+    left: 990px;
+    top: 180px;
+    padding: 60px 210px 60px 210px;
+    
+}
+
+.div7 {
+    position: fixed;
+    left: 990px;
+    top: 700px;
+    padding: 50px 210px 50px 210px;
+    
+}
+
+.msgBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 500px;
+    
+}
+
+.close {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 20px;
+}

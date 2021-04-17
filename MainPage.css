@@ -2,26 +2,29 @@ body {
     background: url("images/Desktop.png") no-repeat center;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
-.div1{
-    background-color: yellow;
-    
-   
-    width:100px;
-    height:0;
-    padding:2% 0 2% 0;
-    border: 2px solid black;
-   position:fixed;
-    bottom:200px;
+.brouse {
+    position: fixed;
+    color: green;
+    bottom: 215px;
+    left: 30px;
+}
+
+.inet {
+    position: fixed;
+    bottom: 190px;
+    left: 55px
 }
 
 .msgBox {
     position: fixed;
     top: 0;
     right: 0;
-    width: 20%;
-    height: 200px;   
+    width: 300px;
+    height: 500px;  
+    color:white;
 }
 
 .close {

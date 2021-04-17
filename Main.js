@@ -1,20 +1,3 @@
-/*
-var myButton = document.querySelector('.name');
-var myHeading = document.querySelector('h1');
-
-function setUserName() {
-    var myName = prompt('Please enter your name.');
-    localStorage.setItem('name', myName);
-    myHeading.textContent = 'Mozilla is cool, ' + myName;
-}
-
-if (!localStorage.getItem('name')) {
-    setUserName();
-} else {
-    var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla is cool, ' + storedName;
-}
-*/
 
 class accaunt {
     constructor(name, password) {
@@ -45,7 +28,6 @@ if (confirm("Do you have accaunt?")) {
         if (acc[i].login == log) {
             if (prompt('input your password') == acc[i].password ) {
                 yours = acc[i];
-                alert('ura');
                 window.location.href = "MainPage.html";;
             }
         }
