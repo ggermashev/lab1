@@ -55,3 +55,20 @@
 html {
     background: url(images/icon_oleg.png) no-repeat fixed;
 }
+
+.msgBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 500px;
+   
+}
+
+.close {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 20px;
+}

@@ -1,0 +1,52 @@
+body {
+    background: url("images/Desktop.png") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.brouse {
+    position: fixed;
+    bottom: 150px;
+}
+
+.msgBox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 500px;
+    color: white;
+}
+
+.close {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 20px;
+}
+
+.brouse {
+    position: fixed;
+    color: green;
+    bottom: 215px;
+    left: 30px;
+}
+
+.folder {
+    position: fixed;
+    bottom: 210px;
+    left: 150px;
+}
+
+.music{
+    position: fixed;
+    bottom:190px;
+    left:180px
+}
+
+.inet {
+    position: fixed;
+    bottom: 190px;
+    left: 55px
+}

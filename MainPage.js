@@ -9,7 +9,7 @@ var msg = document.createElement('p');
 msg.textContent = text;
 panel.appendChild(msg);
     panel.style.background = 'url(' + string + ')' + 'no-repeat';
-    panel.style.backgroundSize = 'cover';
+    panel.style.backgroundSize = '300px 300px';
 var cls = document.createElement('div');
 cls.setAttribute('class', 'close');
 panel.appendChild(cls);
@@ -23,10 +23,12 @@ cls.onclick = function () {
 
 }
 
-message('hello', 'images/Desktop.png');
+message('hello', 'images/dog.png');
 
 
-var brause = document.querySelector('.div1');
+var brause = document.querySelector('.brouse');
 brause.onclick = function () {
     window.location.href = "Search.html";
 }
+
+

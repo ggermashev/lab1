@@ -26,15 +26,7 @@ function message(text, string) {
 message('smth', 'images/dog.png');
 
 
-var srch = document.querySelector('#search');
-var btn = document.querySelector('.btn');
-
-btn.onclick = function () {
-    if (srch.value == 'music') {
-        window.location.href = "Music.html";
-    }
+var music = document.querySelector('.link1');
+music.onclick = function() {
+    alert('эта страница более не доступна');
 }
-
-
-
-

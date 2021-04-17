@@ -25,16 +25,12 @@ function message(text, string) {
 
 message('smth', 'images/dog.png');
 
+var folder = document.querySelector('.folder');
+folder.onclick = function () {
+    message('smth', 'images/dog2.png')
+} 
 
-var srch = document.querySelector('#search');
-var btn = document.querySelector('.btn');
-
-btn.onclick = function () {
-    if (srch.value == 'music') {
-        window.location.href = "Music.html";
-    }
+var brause = document.querySelector('.brouse');
+brause.onclick = function () {
+    window.location.href = "Search.html";
 }
-
-
-
-
