@@ -11,11 +11,26 @@ html {
     left: 450px;
 }
 
+.Desktop1 {
+    position: fixed;
+    top: 86px;
+    left: 450px;
+    border: 2px solid black;
+    width: 1035px;
+    height: 480px;
+}
+
 .brouse {
     position: fixed;
     color: green;
     top: 400px;
     left: 600px;
+}
+
+.error {
+    position: fixed;
+    top: 86px;
+    left: 450px;
 }
 
 .msgBox {
@@ -61,4 +76,10 @@ html {
     color: white;
     top: 475px;
     left: 620px
+}
+
+.stats {
+    position: fixed;
+    left: 0px;
+    top: 980px;
 }
