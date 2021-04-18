@@ -27,7 +27,7 @@ html
 .msgBox {
     position: fixed;
     top: 0px;
-    left: 1600px;
+    right: 0px;
     width: 300px;
     height: 500px;
     

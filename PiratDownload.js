@@ -14,7 +14,7 @@ function message(text, string) {
     cls.setAttribute('class', 'close');
     panel.appendChild(cls);
     cls.style.backgroundColor = 'red';
-    cls.textContent = 'close';
+    cls.textContent = 'X';
 
 
     cls.onclick = function () {
