@@ -1,0 +1,22 @@
+html {
+    background: url("images/workspace.png") no-repeat 0px 0px;
+    background-attachment: fixed;
+    background-size: 1920px 1080px;
+}
+
+.Buy
+{
+    position: fixed;
+    top: 86px;
+    left: 450px;
+}
+
+.button
+{
+    width:200px;
+    height:90px;
+
+    position:fixed;
+    top:250px;
+    left:1180px;
+}
