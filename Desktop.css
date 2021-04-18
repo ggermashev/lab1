@@ -1,18 +1,27 @@
-body {
-    background: url("images/Desktop.png") no-repeat center;
+html {
+    background: url("images/workspace.png") no-repeat 0px 0px;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 1920px 1080px;
+}
+
+.Desktop
+{
+    position: fixed;
+    top: 86px;
+    left: 450px;
 }
 
 .brouse {
     position: fixed;
-    bottom: 150px;
+    color: green;
+    top: 400px;
+    left: 600px;
 }
 
 .msgBox {
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 0px;
+    left: 1600px;
     width: 300px;
     height: 500px;
     color: white;
@@ -20,33 +29,36 @@ body {
 
 .close {
     position: fixed;
-    top: 0;
-    right: 0;
-    width: 40px;
+    top: 0px;
+    left: 1900px;
+    width: 20px;
     height: 20px;
 }
 
 .brouse {
     position: fixed;
     color: green;
-    bottom: 215px;
-    left: 30px;
+    top: 400px;
+    left: 600px;
 }
 
 .folder {
     position: fixed;
-    bottom: 210px;
-    left: 150px;
+    color: green;
+    top: 400px;
+    left: 700px;
 }
 
 .music{
     position: fixed;
-    bottom:190px;
-    left:180px
+    color: white;
+    top: 475px;
+    left: 720px;
 }
 
 .inet {
     position: fixed;
-    bottom: 190px;
-    left: 55px
+    color: white;
+    top: 475px;
+    left: 620px
 }
