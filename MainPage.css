@@ -53,4 +53,10 @@ html
     color:green;
     bottom:1000px;
     left: 30px;
+} */
+
+.stats {
+    position: fixed;
+    left: 0px;
+    top: 980px;
 }

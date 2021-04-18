@@ -97,3 +97,9 @@ html {
     width: 20px;
     height: 20px;
 }
+
+.stats {
+    position: fixed;
+    left: 0px;
+    top: 980px;
+}
