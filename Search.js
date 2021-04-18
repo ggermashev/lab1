@@ -22,7 +22,7 @@ function message( text, string) {
 
 }
 
-message('smth', 'images/dog.png');
+message('Поробуй найти музыку', 'images/dog.png');
 
 
 var srch = document.querySelector('#search');

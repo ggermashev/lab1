@@ -25,6 +25,8 @@ html
 }
 
 .msgBox {
+    font-size:x-large;
+    color:white;
     position: fixed;
     top: 0px;
     right: 0px;

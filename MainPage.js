@@ -23,7 +23,7 @@ cls.onclick = function () {
 
 }
 
-message('hello', 'images/dog.png');
+message('Привет. Не правда ли скучно на карантине? Попробуй открыть браузер и развлечься', 'images/dog.png');
 
 
 var brause = document.querySelector('.brouse');

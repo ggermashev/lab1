@@ -27,5 +27,5 @@ message('smth', 'images/dog.png');
 
 var music = document.querySelector('.link1');
 music.onclick = function() {
-    alert('��� �������� ����� �� ��������');
+    alert('this page is not available');
 }
