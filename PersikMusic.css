@@ -1,0 +1,17 @@
+html
+{
+    background: url("images/Buy.png") no-repeat 0px 0px;
+    background-attachment: fixed;
+    background-size: 1920px 1080px;
+}
+
+.Reg
+{
+    width:380px;
+    height:200px;
+
+    border: 2px solid black;
+    position:fixed;
+    top:365px;
+    left:1345px;
+}

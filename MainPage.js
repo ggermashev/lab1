@@ -9,12 +9,12 @@ var msg = document.createElement('p');
 msg.textContent = text;
 panel.appendChild(msg);
     panel.style.background = 'url(' + string + ')' + 'no-repeat';
-    panel.style.backgroundSize = '300px 300px';
+    panel.style.backgroundSize = '300px 500px';
 var cls = document.createElement('div');
 cls.setAttribute('class', 'close');
 panel.appendChild(cls);
 cls.style.backgroundColor = 'red';
-cls.textContent = 'close';
+cls.textContent = 'X';
 
 
 cls.onclick = function () {
